@@ -27,6 +27,7 @@
 &mt {
     quick-tap-ms = <150>;
     flavor = "tap-preferred";
+};
 
 / {
     combos {
