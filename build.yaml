@@ -19,7 +19,7 @@
 #
 ---
 
-builds:
+include:
   - board: nice_nano_v2
     shield: pskeeb5_right
     snippet: zmk-usb-logging
