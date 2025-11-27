@@ -22,12 +22,8 @@
 builds:
   - board: nice_nano_v2
     shield: pskeeb5_right
-    cmake-args:
-      - -DCONFIG_ZMK_STUDIO=y
-    kconfig-overlays:
-      - zmk-usb-logging
-      - studio-rpc-usb-uart
+    snippet: zmk-usb-logging
   - board: nice_nano_v2
     shield: pskeeb5_left
-  - board: nice_nano_v2
-    shield: settings_reset
+  #- board: nice_nano_v2
+  #  shield: settings_reset
